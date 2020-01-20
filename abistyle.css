@@ -116,3 +116,10 @@ a {
     color: #0092AF;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    .credits {
+        position: relative;
+        margin-bottom: 0px;
+    }
+}
