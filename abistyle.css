@@ -1,4 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700');
+@import url('http://www.scp-wiki.net/local--files/component:theme/font-bauhaus.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+
 body {
     background-color: black;
-    color:white;
+    color: white;
+    margin: 60px 20px 100px 20px;
+}
+
+h1 {
+    color: #eee;
+    background: transparent;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px transparent;
+    letter-spacing: 0.9px;
+    text-align: center;
+    font-size: 50px; 
+}
+
+h2 {
+    color: #8D8D9B;
+    font-size: 15px;
+    text-align: center;
+    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+}
+
+.abi {
+    position: absolute;
+    width: 17%;
+    height: 82%;
+    float:left;
+    margin-left:100px;
+}
+
+.abi2 {
+    position: absolute;
+    width: 17%;
+    height: 82%;
+    right: 20px;
+    top: 60px;
+    float:right;
+    margin-right:100px;
+}
+
+@media only screen and (max-width: 1245px) {
+    .abi {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1245px) {
+    .abi2 {
+        display: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.VE {
+    font-family: "courier", "monospace";
+    display: inline-flex;
+    font-size: 50px;
+    font-weight: bold;
+    height: auto;
+    transition: all .1s ease-in-out;
+}
+
+.VE:hover {
+    transform: scale(1.1);
+}
+
+.SCP {
+    font-family: BauhausLTDemi, 'Nanum Gothic', Arial, sans-serif;
+    display: inline-flex;
+    font-size: 50px;
+    font-weight: bold;
+    height: auto;
+    transition: all .1s ease-in-out;
+}
+
+.SCP:hover {
+    transform: scale(1.1);
+}
+
+.SCP-logo {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(359deg);
+    }
+}
+
+.credits {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto 0px auto;
+    bottom: 0;
+    text-align: center;
+    color: #0092AF;
+    font-size: 10px;
+}
+
+.credits a {
+    color: #0092AF;
+    font-weight: bold;
 }
