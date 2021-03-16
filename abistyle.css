@@ -104,11 +104,11 @@ a {
 }
 
 .Worm:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .Worm-logo {
-    animation: clignote 4s infinite
+    animation: clignote 4s infinite;
 }
 
 @keyframes rotation {
@@ -120,13 +120,9 @@ a {
 }
 
 @keyframes clignote {
-    0% {
-        opacity: 1;
-    } 50% {
-        opacity: 0.5;
-    } 100% {
-        opacity: 1;
-    }
+    0%   {opacity: 1;} 
+    50%  {opacity: 0.5;}
+    100% {opacity: 1;}
 }
 
 .credits {
