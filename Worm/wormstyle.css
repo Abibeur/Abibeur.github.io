@@ -4,8 +4,13 @@ body {
     font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 20px 300px 100px 283px;
     background-color:#1D1D1D;
-    color: #333;
-    
+    color: #333;   
+}
+
+@media only screen and (max-width: 995px) {
+    body {
+        margin: 0px 0px 0px 0px;
+    }
 }
 
 h1 {
