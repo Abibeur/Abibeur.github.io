@@ -48,4 +48,9 @@ h3 {
 
 a {
     text-decoration:none;
+    color: #0366D6;
+}
+
+a:visited {
+    color: #0366D6;
 }
