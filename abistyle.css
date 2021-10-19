@@ -4,6 +4,9 @@
 @import url('http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
 @import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 @import url('Sitka.ttc');
+@import url('MTCORSVA.woff');
+@import url('http://fonts.cdnfonts.com/css/ocr-a-extended');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
 
 body {
     background-color: black;
@@ -22,11 +25,61 @@ h1 {
     font-size: 50px; 
 }
 
+h1 a {
+    color: #eee;
+}
+
 h2 {
     color: #8D8D9B;
     font-size: 15px;
     text-align: center;
     font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+}
+
+h3 {
+    color: #BEBEC5;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'David Libre', serif;
+}
+
+.presentation {
+    color: #8D8D9B;
+    font-size: 16px;
+    text-align: justify;
+    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+    margin: auto 400px auto 400px;
+}
+
+.presentation .moi {
+    font-size: 20px;
+    text-align: center;
+}
+
+.lien {
+    color: #8D8D9B;
+    font-size: 16px;
+    text-align: justify;
+    text-decoration: none;
+    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+    margin: auto 450px auto 450px;
+    display: block;
+    padding: 5px 15px 5px 15px;
+}
+
+.lien:nth-child(odd) a {
+    font-weight: bold;
+    color: #8D8D9B;
+}
+
+.lien:nth-child(even) a {
+    font-weight: bold;
+    color: black;
+}
+
+.lien:nth-child(even) {
+    background-color: #8D8D9B;
+    color: black;
 }
 
 .abi {
@@ -111,6 +164,30 @@ a {
     animation: clignote 4s infinite;
 }
 
+.Traduc {
+    font-family: Monotype Corsiva;
+    display: inline-flex;
+    font-size: 80px;
+    height: 50px;
+    transition: all .1s ease-in-out;
+}
+
+.Traduc:hover {
+    transform: scale(1.1);
+}
+
+.Repert {
+    font-family: 'OCR A Extended', sans-serif;
+    display: inline-flex;
+    font-size: 80px;
+    height: 50px;
+    transition: all .1s ease-in-out;
+}
+
+.Repert:hover {
+    transform: scale(1.1);
+}
+
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -127,10 +204,10 @@ a {
 
 .credits {
     position: fixed;
-    left: 0;
-    right: 0;
+    left: 0px;
+    right: 0px;
     margin: 0px auto 0px auto;
-    bottom: 0;
+    bottom: 0px;
     text-align: center;
     color: #0092AF;
     font-size: 10px;
@@ -145,5 +222,9 @@ a {
     .credits {
         position: relative;
         margin-bottom: 0px;
+    }
+    
+    .lien {
+        padding: 5px 5px 5px 5px;
     }
 }
