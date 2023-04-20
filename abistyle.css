@@ -113,6 +113,20 @@ h3 {
     }
 }
 
+@media only screen and (min-width: 1920px) {
+	.abi {
+		width: initial;
+		height: initial;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.abi2 {
+		width: initial;
+		height: initial;
+	}
+}
+
 a {
     text-decoration: none;
     color: white;
